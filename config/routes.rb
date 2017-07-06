@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'posts/index'
+
+  get 'posts/show'
+
   root 'welcome#home'
   get 'welcome/home'
 
